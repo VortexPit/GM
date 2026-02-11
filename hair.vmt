@@ -1,0 +1,29 @@
+VertexLitGeneric
+{
+	$basetexture "models/finalfantasy\yuffie/hair"
+	$bumpmap "models/finalfantasy\yuffie/hair_n"
+                $color2 "[ 1 1 1]"
+	$surfaceprop Flesh
+
+
+	$alphatest 1
+                $nocull 1
+
+
+	$phong 1
+              "$phongfresnelranges"    "[0.435 0.9 1]"
+	$phongalbedotint 1
+	$phongexponent 0.3
+	$phongboost 0.7
+	$phongalbedoboost 1
+                $phongexponenttexture "models/finalfantasy\yuffie/hair_e"
+
+	$rimlight 1
+	$rimlightexponent 1
+	$rimlightboost 1
+	$rimlightmask 1
+
+
+	$rimmask 1
+
+}
